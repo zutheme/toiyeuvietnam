@@ -17,19 +17,22 @@
  *
  * @package WordPress
  */
-
+define( 'WP_MEMORY_LIMIT', '2048M' );
+@ini_set( 'upload_max_size' , '30M' );
+@ini_set( 'post_max_size', '180M');
+@ini_set( 'memory_limit', '2048M' );
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define( 'DB_NAME', 'toiyeuviet_dbtoiyeu' );
 
-/** Username của database */
-define( 'DB_USER', 'toiyeuviet_dbtoiyeu' );
+// define( 'DB_NAME', 'toiyeuviet' );
+// define( 'DB_USER', 'root' );
+// define( 'DB_PASSWORD', '' );
+// define( 'DB_HOST', "localhost" );
 
-/** Mật khẩu của database */
+define( 'DB_NAME', 'toiyeuviet_demo' );
+define( 'DB_USER', 'toiyeuviet_demo' );
 define( 'DB_PASSWORD', 'toiyeuvietnam' );
-
-/** Hostname của database */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', "45.117.168.156" );
 
 /** Database charset sử dụng để tạo bảng database. */
 define( 'DB_CHARSET', 'utf8mb4' );

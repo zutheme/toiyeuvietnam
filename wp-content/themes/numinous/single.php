@@ -26,7 +26,7 @@ get_header(); ?>
             do_action( 'numinous_after_post_content' );
             
             
-    		numinous_pagination(); //pagination
+    		//numinous_pagination(); //pagination
     
     		/**
              * Numinous Comment

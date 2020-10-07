@@ -32,8 +32,8 @@ $readmore = get_theme_mod( 'numinous_readmore_text', __( 'Read More', 'numinous'
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<a href="<?php the_permalink(); ?>" class="read-more"><?php echo esc_html( $readmore ); ?></a>
-        <?php numinous_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	<!-- <footer class="entry-footer">
+		<a href="<?php //the_permalink(); ?>" class="read-more"><?php //echo esc_html( $readmore ); ?></a>
+        <?php //numinous_entry_footer(); ?>
+	</footer> -->
 </article><!-- #post-## -->

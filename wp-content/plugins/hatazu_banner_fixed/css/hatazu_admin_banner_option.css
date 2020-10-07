@@ -1,0 +1,22 @@
+.wrap .form-table td.form-control{
+	width: 100%;
+	position: relative;
+}
+.wrap .form-table .opt {
+	width: 100%;
+	position: relative;
+}
+.category-check {
+	width: 200px !important;
+  	overflow-y: scroll;
+	height: 100px;
+	width: auto;
+}
+.category-check li{
+	list-style: none;
+	padding: 0px
+	margin:0px;
+}
+.category-check li ul.children {
+	padding-left:10px; 
+}

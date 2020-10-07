@@ -1787,7 +1787,7 @@ reset ending
 
 /*#secondary style*/
 #secondary .widget {
-    padding: 20px 30px 32px;
+    padding: 20px 10px 10px;
     background: #f5f5f5;
     margin-bottom: 30px;
 }
@@ -1800,7 +1800,7 @@ reset ending
     font-weight: 700;
     border-bottom: 1px solid #e3e3e3;
     padding: 0 30px 12px;
-    margin: 0 -30px 32px;
+    margin: 0 0px 32px;
 }
 
 .widget.widget_numinous_recent_post ul,
@@ -2993,13 +2993,18 @@ ul.owl-carousel {
     padding-left: 0;
 }
 
-.comments-area,
+/*.comments-area,
 .comments-area.form {
     margin-bottom: 60px;
     background: #fffffe;
     padding: 40px 0;
+}*/
+.comments-area,
+.comments-area.form {
+    margin-bottom: 0px;
+    background: #fffffe;
+    padding: 0px 0;
 }
-
 .comments-area ol li {
     border-top: 1px solid #f6f6f5;
     padding: 26px 0 15px;

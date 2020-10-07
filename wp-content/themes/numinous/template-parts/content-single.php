@@ -28,14 +28,14 @@
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'numinous' ),
-				'after'  => '</div>',
-			) );
+			//wp_link_pages( array(
+				//'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'numinous' ),
+				//'after'  => '</div>',
+			//) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php numinous_entry_footer(); ?>
+		<?php //numinous_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
