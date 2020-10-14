@@ -41,15 +41,16 @@
      * @hooked numinous_page_end - 20
     */
     do_action( 'numinous_after_footer' ); ?>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144203477-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180526157-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-  gtag('config', 'UA-144203477-2');
-</script>
+          gtag('config', 'UA-180526157-1');
+        </script>
+
 
     <?php wp_footer(); ?>
 
