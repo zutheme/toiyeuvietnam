@@ -5,11 +5,6 @@
 # Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteRule ^.*-(\d+)/$ themeso/index\.php?id=$1&%{QUERY_STRING} [L]
-RewriteRule ^c-\d+-(.*)/$ themeso/index\.php?cat=$1&%{QUERY_STRING} [L]
-RewriteRule ^.*(site[a-z]+index\.xml)$  indexing/$1 [L]
-RewriteRule ^.*(sitemap\.xml)$  indexing/$1 [L]
-
 RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
