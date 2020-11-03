@@ -1,4 +1,7 @@
-
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters
+# Any changes to the directives between these markers will be overwritte
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
 # dynamically generated, and should only be modified via WordPress filters.
@@ -12,4 +15,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 
+<<<<<<< HEAD
 # END WordPress
+=======
+# END WordPres
+>>>>>>> b10a25ec2e2f8010722b7690cf68c565279554d7
