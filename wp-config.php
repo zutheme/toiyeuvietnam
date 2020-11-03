@@ -91,5 +91,5 @@ if ( !defined('ABSPATH') )
 /** Thiết lập biến và include file. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define('DISALLOW_FILE_EDIT', true);
-define('DISALLOW_FILE_MODS', true);
+// define('DISALLOW_FILE_EDIT', true);
+// define('DISALLOW_FILE_MODS', true);
