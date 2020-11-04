@@ -93,5 +93,9 @@ require_once(ABSPATH . 'wp-settings.php');
 
 // define('DISALLOW_FILE_EDIT', true);
 // define('DISALLOW_FILE_MODS', true);
+define('FTP_USER', 'toiyeuviet');
+define('FTP_PASS', 'YqYgbQ21');
+define('FTP_HOST', '45.117.168.156');
+define('FTP_SSL', false);
 
 
