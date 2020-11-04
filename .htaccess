@@ -15,8 +15,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 
-<<<<<<< HEAD
-# END WordPress
-=======
-# END WordPres
->>>>>>> b10a25ec2e2f8010722b7690cf68c565279554d7
