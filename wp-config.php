@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 /**
  * Cấu hình cơ bản cho WordPress
@@ -188,6 +187,4 @@ if ( !defined('ABSPATH') )
 /** Thiết lập biến và include file. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define('DISALLOW_FILE_EDIT', true);
-define('DISALLOW_FILE_MODS', true);
->>>>>>> b10a25ec2e2f8010722b7690cf68c565279554d7
+
