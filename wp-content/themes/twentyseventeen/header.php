@@ -17,6 +17,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="lszhTwRQXDuAWjnDu0LJBe-Ub_Qn4co11VWy5Te1TRw" />
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
