@@ -15,6 +15,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
+	<!--00-->
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="lszhTwRQXDuAWjnDu0LJBe-Ub_Qn4co11VWy5Te1TRw" />
