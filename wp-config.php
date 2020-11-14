@@ -27,7 +27,6 @@ define( 'WP_MEMORY_LIMIT', '2048M' );
 define( 'DB_NAME', 'toiyeuviet_dbtoiyeu' );
 define( 'DB_USER', 'toiyeuviet_dbtoiyeu' );
 define( 'DB_PASSWORD', 'TzEdw22OW' );
-define( 'DB_HOST', "45.117.168.156" );
 
 // define( 'DB_NAME', 'toiyeuviet_demo' );
 // define( 'DB_USER', 'toiyeuviet_demo' );
