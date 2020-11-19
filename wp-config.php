@@ -17,13 +17,9 @@
  *
  * @package WordPress
  */
-define( 'WP_MEMORY_LIMIT', '2048M' );
-@ini_set( 'upload_max_size' , '30M' );
-@ini_set( 'post_max_size', '180M');
-@ini_set( 'memory_limit', '2048M' );
+
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-
 define( 'DB_NAME', 'toiyeuviet_dbtoiyeu' );
 define( 'DB_USER', 'toiyeuviet_dbtoiyeu' );
 define( 'DB_PASSWORD', 'TzEdw22OW' );
@@ -51,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '_cuq@;IxG&lM@pKL{R<0UnuS;XNP[&e?80`WP+8Up5i-mZJ4=ER ZXK|cHNbJLhd' );
-define( 'SECURE_AUTH_KEY',  'FTry6xW2j7]K>8_,O8@=~=W~OyDjb@nCYRrW!MxUn@Cjbje6tfTFuPA).F%UC8.&' );
-define( 'LOGGED_IN_KEY',    '.igK&W,oF0#..Bc{6H @hnpfPO4@iOKK2V}NxTR-50Iv0&{4>%v#BNk)&cGuk,@j' );
-define( 'NONCE_KEY',        ')RA-k88kdAd*&8#u%pw_T_gJ/6LY~st8bvF)|*qMRL@p|tG$`.W$wKE$FS=wWZJ3' );
-define( 'AUTH_SALT',        '$^^ri#g,&bSd%)S8uaNYholnSCV`CBr9vsCn.e/0f9{oXhM`#taKte)cF~g+xzm~' );
-define( 'SECURE_AUTH_SALT', '/JM:xQ|Ej:x;Lb)FHYY&cV2sfm=Wx^_h0ysV^(v.cPa%Q]/8LC}f7 %dkw+SEQtL' );
-define( 'LOGGED_IN_SALT',   'I0f[K`BVA6R4j-XT1G-{4gMjn:wq7Ut`qM[pL2kFf|#|8go_QcCn%%Q>fo2Dai9;' );
-define( 'NONCE_SALT',       '8F:x>`ov=xEO i#fT}^UJ?/Z,&FoK/L=HMbb*/2,!FiU,/DKt~SsO,F`PG*r:9ro' );
+define( 'AUTH_KEY',         'Zq[[poNaA;d#qyl@9b$XEPSwAQ{%0=0T,~eZu_yM>!T?+tR)3EY%00u4];QYb`Q/' );
+define( 'SECURE_AUTH_KEY',  '8o+iCX;D|?qE@jXmsw0@K#7fS)wasQ^A&xSaqZ%~C? nc,y>H<GzVC%d#muPp*;K' );
+define( 'LOGGED_IN_KEY',    'HG,w!%<y#sQHM!>:_k5_VEgI!E/S,3ordq>K?SG@L6`gp:ect_5*}CGS%3|KhFy9' );
+define( 'NONCE_KEY',        'MU[{,|~wOmo_ZJ|ssqxBuD[w8X|4#:,El3z >4&(0%-eOKr{UqUzhZqY7DZE5;O<' );
+define( 'AUTH_SALT',        '|#+gXACKHS9KEic77&QkrZi%/1} KfH.Wg9.>@eJ];IWq^/R;K!d<07|V;|M&3R8' );
+define( 'SECURE_AUTH_SALT', 'W*aAo!M1&Yk0JN9V7_0: N}elui+LZc:?56#I$,(0>_}*^R@m%.>o*xDk,d,x1oS' );
+define( 'LOGGED_IN_SALT',   '|9qG@GWa~b](cCpeaF!GSqZG{I)e,((4w{8GBvM{3Zpms;mL<l1B*[ptO!S6=LKN' );
+define( 'NONCE_SALT',       'KGN$e7uYQ@J/.pgBJGFa@/[s N5+fn{Ji607&F,)Hw~oeWT)wrOj]*YnvNufxYDm' );
 
 /**#@-*/
 
@@ -90,12 +86,3 @@ if ( !defined('ABSPATH') )
 
 /** Thiết lập biến và include file. */
 require_once(ABSPATH . 'wp-settings.php');
-
-// define('DISALLOW_FILE_EDIT', true);
-// define('DISALLOW_FILE_MODS', true);
-define('FTP_USER', 'toiyeuviet');
-define('FTP_PASS', 'YqYgbQ21');
-define('FTP_HOST', '45.117.168.156');
-define('FTP_SSL', false);
-
-
